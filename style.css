@@ -5,5 +5,5 @@ body {
 	font-family: Arial;
 	color: white;
 	min-height: 100vh;
-	background: linear-gradient(), url("background.avif");
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("background.avif");
 }
