@@ -6,4 +6,21 @@ body {
 	color: white;
 	min-height: 100vh;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("background.avif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+header {
+	diplay: flex;
+	justify-content: space-beetween;
+	align-items: center;
+	padding: 20px 40px;
+}
+
+
+@media (max-width: 599px){
+	body {
+		background-position: 50% center;
+	}
 }
